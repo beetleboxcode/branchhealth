@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_logo_height"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/term_logo_width"
+            android:layout_height="@dimen/term_logo"
+            android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_register_without_line"
+        android:textSize="18dp"
+        android:textColor="@color/fontYellow"
+        android:layout_marginBottom="8dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+            <include layout="@layout/item_form_common"/>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_yellow"
+                android:textColor="@color/fontPointReward"
+                android:text="@string/btn_register"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

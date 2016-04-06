@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_point_reward"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/fontPrimary"
+                android:textSize="@dimen/title_size"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_your_points"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/fontGreen"
+                    android:textSize="16dp"/>
+
+                <ImageView
+                    android:layout_width="@dimen/star_your_points"
+                    android:layout_height="@dimen/star_your_points"
+                    android:src="@drawable/star"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="-3dp"
+                    android:layout_marginLeft="8dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/txtFifthPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_default_point"
+                    android:textSize="@dimen/point_reward_size"/>
+
+                <View
+                    android:layout_width="@dimen/line_width"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/line_margin"
+                    android:layout_marginRight="@dimen/line_margin"/>
+
+                <TextView
+                    android:id="@+id/txtFourthPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_default_point"
+                    android:textSize="@dimen/point_reward_size"/>
+
+                <View
+                    android:layout_width="@dimen/line_width"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/line_margin"
+                    android:layout_marginRight="@dimen/line_margin"/>
+
+                <TextView
+                    android:id="@+id/txtThirdPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_default_point"
+                    android:textSize="@dimen/point_reward_size"/>
+
+                <View
+                    android:layout_width="@dimen/line_width"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/line_margin"
+                    android:layout_marginRight="@dimen/line_margin"/>
+
+                <TextView
+                    android:id="@+id/txtSecondPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_default_point"
+                    android:textSize="@dimen/point_reward_size"/>
+
+                <View
+                    android:layout_width="@dimen/line_width"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginLeft="@dimen/line_margin"
+                    android:layout_marginRight="@dimen/line_margin"/>
+
+                <TextView
+                    android:id="@+id/txtFirstPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_default_point"
+                    android:textSize="@dimen/point_reward_size"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRefresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_refresh"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/lstHistoryPoint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:dividerHeight="2dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

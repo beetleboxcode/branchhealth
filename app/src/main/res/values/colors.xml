@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#098E50</color>
+    <color name="colorPrimaryDark">#098E50</color>
+    <color name="colorAccent">#098E50</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#D5DFE8</color>
+    <color name="divider">#8FA3AD</color>
+
+    <color name="bgStart">#12351B</color>
+    <color name="bgEnd">#0A8B45</color>
+    <color name="bgEndTwo">#009444</color>
+
+    <color name="fontPrimary">#58585A</color>
+    <color name="fontYellow">#F6E300</color>
+    <color name="fontGreen">#098E50</color>
+    <color name="fontPointReward">#10351A</color>
+
+    <color name="btnGreen">#098E50</color>
+    <color name="btnYellow">#F6E300</color>
+    <color name="btnDisable">#58585A</color>
+</resources>

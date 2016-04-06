@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_profile"
+        android:textColor="@color/fontPrimary"
+        android:textSize="@dimen/title_size"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/btnProfile"
+                android:layout_width="@dimen/profile_size"
+                android:layout_height="@dimen/profile_size"
+                android:src="@drawable/profile"
+                android:scaleType="fitXY"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@android:color/transparent"/>
+
+            <include layout="@layout/item_form_common"/>
+
+            <Button
+                android:id="@+id/btnEditProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_yellow"
+                android:textColor="@color/fontPointReward"
+                android:text="@string/btn_edit_profile"/>
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_yellow"
+                android:textColor="@color/fontPointReward"
+                android:text="@string/btn_change_password"/>
+
+            <Button
+                android:id="@+id/btnLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_yellow"
+                android:textColor="@color/fontPointReward"
+                android:text="@string/btn_logout"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

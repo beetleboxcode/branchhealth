@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="10dp">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeProdKnowledgeList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fr.rolandl.carousel.Carousel
+                android:id="@+id/carouselProdKnowledge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animationDuration="200"
+                android:layout_marginTop="-180dp"
+                android:layout_above="@+id/txtProdDetail" />
+
+            <TextView
+                android:id="@+id/txtProdDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_product_detail"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="18dp"/>
+
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

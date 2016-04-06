@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="content_logo_height">200dp</dimen>
+    <dimen name="term_logo">130dp</dimen>
+    <dimen name="term_logo_width">250dp</dimen>
+    <dimen name="register_logo">150dp</dimen>
+    <dimen name="header_height">60dp</dimen>
+    <dimen name="header_logo_height">40dp</dimen>
+    <dimen name="footer_height">60dp</dimen>
+    <dimen name="footer_logo_width">60dp</dimen>
+    <dimen name="item_title_height">40dp</dimen>
+    <dimen name="item_arrow_size">20dp</dimen>
+    <dimen name="star_your_points">20dp</dimen>
+    <dimen name="line_width">2dp</dimen>
+    <dimen name="line_margin">10dp</dimen>
+    <dimen name="title_size">18dp</dimen>
+    <dimen name="profile_size">80dp</dimen>
+    <dimen name="item_max_height">270dp</dimen>
+    <dimen name="item_max_pk_height">350dp</dimen>
+    <dimen name="point_reward_size">60dp</dimen>
+    <dimen name="pager_margin">-680dp</dimen>
+</resources>

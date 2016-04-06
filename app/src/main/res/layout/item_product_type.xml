@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/btnProductType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_toLeftOf="@+id/edtQty"
+            android:background="@color/btnGreen"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:paddingRight="8dp"
+            android:paddingLeft="8dp">
+
+            <TextView
+                android:id="@+id/txtProductType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_toLeftOf="@+id/imgProductType"
+                android:text="@string/edt_product_type"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingRight="8dp"/>
+
+            <ImageView
+                android:id="@+id/imgProductType"
+                android:layout_width="@dimen/item_arrow_size"
+                android:layout_height="@dimen/item_arrow_size"
+                android:background="@drawable/arrow_down"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"/>
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/edtQty"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/btnMinus"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:gravity="center_vertical"
+            android:layout_marginRight="2dp"
+            android:background="@color/white"
+            android:fontFamily="sans"
+            android:hint="@string/edt_qty"
+            android:inputType="number"
+            android:textSize="16dp"/>
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:layout_marginLeft="2dp"
+            android:fontFamily="sans"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="20dp"
+            android:layout_alignParentRight="true"/>
+    </LinearLayout>
+
+</LinearLayout>

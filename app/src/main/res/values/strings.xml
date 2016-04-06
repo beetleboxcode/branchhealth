@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">BRAND\'S Health Club</string>
+    <string name="gcm_senderid">1080249433814</string>
+
+    <string name="btn_aggree">Setuju</string>
+    <string name="btn_disagree">Tidak Setuju</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_send">Kirim</string>
+    <string name="btn_check_form">Periksa Laporan</string>
+    <string name="btn_daftar">Daftar</string>
+    <string name="btn_redeem_points">Redeem Points</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_edit_profile">Edit Profile</string>
+    <string name="btn_save_profile">Simpan Profile</string>
+    <string name="btn_change_password">Ubah Password</string>
+    <string name="btn_logout">Log Out</string>
+    <string name="btn_take_struct">Tekan Untuk Ambil Foto Struk</string>
+
+    <string name="txt_no_internet_connection">No Internet Connection</string>
+    <string name="txt_register"><u>Daftar</u></string>
+    <string name="txt_register_without_line">Daftar</string>
+    <string name="txt_forgot_password"><u>Lupa password?</u></string>
+    <string name="txt_forgot_password_without_line">Lupa Password</string>
+    <string name="txt_note_forgot_password">Note: Password baru akan dikirim ke email yang anda masukkan dan telah terdaftar. Diharapkan segera melakukan perubahan password di setting.</string>
+    <string name="txt_point_reward">Point Reward</string>
+    <string name="txt_your_points">Poin Anda</string>
+    <string name="txt_default_point">0</string>
+    <string name="txt_news">News</string>
+    <string name="txt_faq">FAQ</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_contactus">Contact Us</string>
+    <string name="txt_change_password">Ubah Password</string>
+    <string name="txt_product_knowledge">Pengetahuan Produk</string>
+    <string name="txt_product_detail"><u>Detil Produk</u></string>
+    <string name="txt_redeem_point">Tukar Poin</string>
+    <string name="txt_note_upload_struct">Note: Pastikan waktu dan tanggal sesuai dengan struk Anda. Pelaporan struk maksimal 3 hari atau 72 jam setelah transaksi struk.</string>
+
+    <string name="edt_email">Email</string>
+    <string name="edt_password">Password</string>
+    <string name="edt_old_password">Password Lama</string>
+    <string name="edt_new_password">Password Baru</string>
+    <string name="edt_nama_depan">Nama depan</string>
+    <string name="edt_nama_belakang">Nama belakang</string>
+    <string name="edt_jabatan">Jabatan</string>
+    <string name="edt_confirm_password">Konfirmasi Password</string>
+    <string name="edt_nomor_telpon_1">Nomor Telpon 1 (Handphone)</string>
+    <string name="edt_nomor_telpon_2">Nomor Telpon 2 (Home/office)</string>
+    <string name="edt_alamat_rumah">Alamat Rumah</string>
+    <string name="edt_alamat_apotik">Alamat Lengkap Apotik</string>
+    <string name="edt_kota">Kota</string>
+    <string name="edt_cabang">Cabang\nDistributor</string>
+    <string name="edt_grup_apotik">Grup Apotik</string>
+    <string name="edt_nama_apotik">Nama\nApotik</string>
+    <string name="edt_other">other</string>
+    <string name="edt_qty">Qty</string>
+    <string name="edt_struc_number">Nomor Struk</string>
+    <string name="edt_product_type">Jenis Produk</string>
+
+    <string name="chk_remember_me">Ingat Saya</string>
+    <string name="chk_tnc">I agree to BHC Terms and Condition</string>
+
+    <string name="pagermargin">-680</string>
+</resources>

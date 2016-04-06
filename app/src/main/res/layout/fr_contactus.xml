@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/txt_contactus"
+        android:textColor="@color/fontPrimary"
+        android:textSize="@dimen/title_size"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#25000000"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutOffice"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="18dp"
+                    android:background="@color/colorPrimary">
+
+                    <TextView
+                        android:id="@+id/title_Location"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/menu_thumbnail"
+                        android:layout_centerVertical="true"
+                        android:text="Branch Health"
+                        android:textSize="16dp"
+                        android:layout_gravity="center"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLocationOffice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:minHeight="48dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="16dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:layout_weight="0.9">
+
+                        <TextView
+                            android:id="@+id/contactUsAddressTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Lokasi kantor"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/contactUsAddressContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Alamat lokasi kantor"
+                            android:textSize="12dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <LinearLayout
+                    android:id="@+id/linearCallOffice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="16dp"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:layout_weight="0.9">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Nomor Telepon Kantor"
+                            android:textSize="12dp"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/contactUsPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="021 - 1234567890"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="72dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="16dp"
+                        android:layout_weight="0.1"
+                        android:layout_centerVertical="true"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/arrow_right"
+                            android:layout_gravity="center"
+                            android:layout_centerVertical="true"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <LinearLayout
+                    android:id="@+id/linearCallFaxOffice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="16dp"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:layout_weight="0.9">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Nomor Fax Kantor"
+                            android:textSize="12dp"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/contactUsFax"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="021 - 0987654321"
+                            android:textSize="14dp"
+                            android:textColor="@color/black"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="72dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="16dp"
+                        android:layout_weight="0.1"
+                        android:layout_centerVertical="true"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/arrow_right"
+                            android:layout_gravity="center"
+                            android:layout_centerVertical="true"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimary"></View>
+
+                <LinearLayout
+                    android:id="@+id/linearWebOffice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="16dp"
+                        android:orientation="vertical"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:layout_weight="0.9">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="Alamat Web Kantor"
+                            android:textSize="12dp"
+                            android:layout_gravity="center" />
+
+                        <TextView
+                            android:id="@+id/contactUsWebsite"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:text="www.google.com"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="72dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginRight="5dip"
+                        android:background="@android:color/transparent"
+                        android:paddingLeft="16dp"
+                        android:layout_weight="0.1"
+                        android:layout_centerVertical="true"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:contentDescription="@string/app_name"
+                            android:src="@drawable/arrow_right"
+                            android:layout_gravity="center"
+                            android:layout_centerVertical="true"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

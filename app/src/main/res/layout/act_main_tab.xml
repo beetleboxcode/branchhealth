@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_two">
+
+    <RelativeLayout
+        android:id="@+id/contentHeader"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:background="@drawable/bg_gradient">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/header_logo_height"
+            android:src="@drawable/header"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"/>
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/header_logo_height"
+            android:layout_height="@dimen/header_logo_height"
+            android:src="@drawable/back_button"
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/containerFragmentDefaultBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/contentTab"
+        android:layout_below="@+id/contentHeader"
+        android:layout_marginBottom="10dp"/>
+
+    <View
+        android:layout_below="@+id/contentHeader"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/toolbar_dropshadow" />
+
+    <LinearLayout
+        android:id="@+id/contentTab"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_height"
+        android:layout_above="@+id/contentFooter"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/tabNews"
+            android:layout_width="@dimen/footer_logo_width"
+            android:layout_height="match_parent"
+            android:src="@drawable/tab_news"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"/>
+
+        <View
+            android:layout_width="@dimen/line_width"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"/>
+
+        <ImageButton
+            android:id="@+id/tabProductKnowledge"
+            android:layout_width="@dimen/footer_logo_width"
+            android:layout_height="match_parent"
+            android:src="@drawable/tab_prod_knowledge"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"/>
+
+        <View
+            android:layout_width="@dimen/line_width"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"/>
+
+        <ImageButton
+            android:id="@+id/tabPointReward"
+            android:layout_width="@dimen/footer_logo_width"
+            android:layout_height="match_parent"
+            android:src="@drawable/tab_point"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"/>
+
+        <View
+            android:layout_width="@dimen/line_width"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="@dimen/line_margin"
+            android:layout_marginRight="@dimen/line_margin"/>
+
+        <ImageButton
+            android:id="@+id/tabSetting"
+            android:layout_width="@dimen/footer_logo_width"
+            android:layout_height="match_parent"
+            android:src="@drawable/tab_setting"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/contentFooter"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_gradient"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
